@@ -1,14 +1,24 @@
+
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+
+  <ion-navbar color="facebook">
+    <ion-title >Today's Devotional</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only><ion-icon name="ios-star"></ion-icon></button>
+      <button ion-button icon-only (click)="shareInfo()"><ion-icon name="md-share"></ion-icon></button>
+      <button ion-button icon-only ><ion-icon name="md-more"></ion-icon></button>
+    </ion-buttons>
   </ion-navbar>
+
 </ion-header>
 
+
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+
+  <div>
+    <strong><h3>New Year Message</h3></strong>
+    <h5>By: Adeyemo Samuel</h5>
+    <p>The word of the Lord came unto me saying in the book of Isaiah 40:29-31 which reads thus.</p>
+  </div>
+
 </ion-content>
